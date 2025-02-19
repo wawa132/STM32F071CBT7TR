@@ -1,4 +1,5 @@
 C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/CMakeFiles/STM32F071CBT7TR.dir
-C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/CMakeFiles/ALL_BUILD.dir
-C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/CMakeFiles/ZERO_CHECK.dir
-C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/cmake/stm32cubemx/CMakeFiles/ALL_BUILD.dir
+C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/CMakeFiles/edit_cache.dir
+C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/CMakeFiles/rebuild_cache.dir
+C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
