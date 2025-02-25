@@ -2277,7 +2277,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
  .debug_macro   0x00000000      0x122 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
  .debug_line    0x00000000      0x998 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
- .debug_str     0x00000000    0x7516e CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_str     0x00000000    0x75166 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
  .comment       0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x170 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
  .ARM.attributes
@@ -2396,7 +2396,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .debug_macro   0x00000000      0x122 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .debug_line    0x00000000      0x907 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
- .debug_str     0x00000000    0x75139 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
+ .debug_str     0x00000000    0x75131 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000000      0x110 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -2526,7 +2526,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .debug_macro   0x00000000      0x122 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .debug_line    0x00000000      0xb29 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
- .debug_str     0x00000000    0x752dc CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
+ .debug_str     0x00000000    0x752d4 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .comment       0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x1c4 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
  .ARM.attributes
@@ -2659,7 +2659,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000      0x122 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .debug_line    0x00000000      0xcee CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
- .debug_str     0x00000000    0x7545b CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000    0x75453 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x220 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -2778,7 +2778,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
  .debug_macro   0x00000000      0x122 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
  .debug_line    0x00000000      0xbd2 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
- .debug_str     0x00000000    0x751a7 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
+ .debug_str     0x00000000    0x7519f CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
  .comment       0x00000000       0x44 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
  .debug_frame   0x00000000      0x130 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj
  .ARM.attributes
@@ -5406,143 +5406,143 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x000160e3       0x16 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/syscalls.c.obj
  .debug_macro   0x000160f9       0xce CMakeFiles/STM32F071CBT7TR.dir/Core/Src/syscalls.c.obj
 
-.debug_line     0x00000000    0x1ff8b
- .debug_line    0x00000000      0xfb5 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/main.c.obj
- .debug_line    0x00000fb5      0x7ae CMakeFiles/STM32F071CBT7TR.dir/Core/Src/gpio.c.obj
- .debug_line    0x00001763      0x886 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/adc.c.obj
- .debug_line    0x00001fe9      0x7af CMakeFiles/STM32F071CBT7TR.dir/Core/Src/dma.c.obj
- .debug_line    0x00002798      0x82c CMakeFiles/STM32F071CBT7TR.dir/Core/Src/i2c.c.obj
- .debug_line    0x00002fc4      0x81d CMakeFiles/STM32F071CBT7TR.dir/Core/Src/tim.c.obj
- .debug_line    0x000037e1      0x984 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/usart.c.obj
- .debug_line    0x00004165      0x8bd CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_it.c.obj
- .debug_line    0x00004a22      0x7af CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_hal_msp.c.obj
- .debug_line    0x000051d1     0x15a5 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_line    0x00006776      0x848 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
- .debug_line    0x00006fbe     0x111c CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_line    0x000080da      0xd17 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_line    0x00008df1      0xa3e CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_line    0x0000982f     0x3d68 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_line    0x0000d597      0xa74 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_line    0x0000e00b      0xd06 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_line    0x0000ed11      0xe2a CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_line    0x0000fb3b      0xb17 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_line    0x00010652     0x5238 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
- .debug_line    0x0001588a     0x1fc1 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
- .debug_line    0x0001784b     0x2eef CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- .debug_line    0x0001a73a      0xcac CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
- .debug_line    0x0001b3e6      0x837 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/system_stm32f0xx.c.obj
- .debug_line    0x0001bc1d      0x351 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0001bf6e      0x680 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0001c5ee       0x7b CMakeFiles/STM32F071CBT7TR.dir/startup_stm32f071xb.s.obj
- .debug_line    0x0001c669      0x254 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-printf.o)
- .debug_line    0x0001c8bd      0x3c1 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-snprintf.o)
- .debug_line    0x0001cc7e      0x12b C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strcat.o)
- .debug_line    0x0001cda9      0x18e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-errno.o)
- .debug_line    0x0001cf37       0x4f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strlen.o)
- .debug_line    0x0001cf86      0x92f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_line    0x0001d8b5      0x768 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
- .debug_line    0x0001e01d      0x6d8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_line    0x0001e6f5      0x2db C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wbuf.o)
- .debug_line    0x0001e9d0      0x315 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wsetup.o)
- .debug_line    0x0001ece5      0x1a7 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memmove.o)
- .debug_line    0x0001ee8c      0x202 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
- .debug_line    0x0001f08e      0x201 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_line    0x0001f28f      0x277 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-reallocr.o)
- .debug_line    0x0001f506      0x3b3 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-makebuf.o)
- .debug_line    0x0001f8b9      0x2b0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-fstatr.o)
- .debug_line    0x0001fb69      0x21c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-isattyr.o)
- .debug_line    0x0001fd85      0x206 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-msizer.o)
+.debug_line     0x00000000    0x1ff89
+ .debug_line    0x00000000      0xfb3 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/main.c.obj
+ .debug_line    0x00000fb3      0x7ae CMakeFiles/STM32F071CBT7TR.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00001761      0x886 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/adc.c.obj
+ .debug_line    0x00001fe7      0x7af CMakeFiles/STM32F071CBT7TR.dir/Core/Src/dma.c.obj
+ .debug_line    0x00002796      0x82c CMakeFiles/STM32F071CBT7TR.dir/Core/Src/i2c.c.obj
+ .debug_line    0x00002fc2      0x81d CMakeFiles/STM32F071CBT7TR.dir/Core/Src/tim.c.obj
+ .debug_line    0x000037df      0x984 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/usart.c.obj
+ .debug_line    0x00004163      0x8bd CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_it.c.obj
+ .debug_line    0x00004a20      0x7af CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_line    0x000051cf     0x15a5 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_line    0x00006774      0x848 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
+ .debug_line    0x00006fbc     0x111c CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_line    0x000080d8      0xd17 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_line    0x00008def      0xa3e CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_line    0x0000982d     0x3d68 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_line    0x0000d595      0xa74 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_line    0x0000e009      0xd06 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_line    0x0000ed0f      0xe2a CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_line    0x0000fb39      0xb17 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_line    0x00010650     0x5238 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
+ .debug_line    0x00015888     0x1fc1 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
+ .debug_line    0x00017849     0x2eef CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ .debug_line    0x0001a738      0xcac CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+ .debug_line    0x0001b3e4      0x837 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_line    0x0001bc1b      0x351 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x0001bf6c      0x680 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0001c5ec       0x7b CMakeFiles/STM32F071CBT7TR.dir/startup_stm32f071xb.s.obj
+ .debug_line    0x0001c667      0x254 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-printf.o)
+ .debug_line    0x0001c8bb      0x3c1 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .debug_line    0x0001cc7c      0x12b C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strcat.o)
+ .debug_line    0x0001cda7      0x18e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-errno.o)
+ .debug_line    0x0001cf35       0x4f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_line    0x0001cf84      0x92f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_line    0x0001d8b3      0x768 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_line    0x0001e01b      0x6d8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_line    0x0001e6f3      0x2db C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wbuf.o)
+ .debug_line    0x0001e9ce      0x315 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wsetup.o)
+ .debug_line    0x0001ece3      0x1a7 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .debug_line    0x0001ee8a      0x202 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+ .debug_line    0x0001f08c      0x201 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_line    0x0001f28d      0x277 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .debug_line    0x0001f504      0x3b3 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-makebuf.o)
+ .debug_line    0x0001f8b7      0x2b0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-fstatr.o)
+ .debug_line    0x0001fb67      0x21c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-isattyr.o)
+ .debug_line    0x0001fd83      0x206 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-msizer.o)
 
-.debug_str      0x00000000    0x8060a
- .debug_str     0x00000000    0x78f1d CMakeFiles/STM32F071CBT7TR.dir/Core/Src/main.c.obj
-                              0x7934c (size before relaxing)
- .debug_str     0x00078f1d       0x9b CMakeFiles/STM32F071CBT7TR.dir/Core/Src/gpio.c.obj
-                              0x74fc3 (size before relaxing)
- .debug_str     0x00078fb8      0x169 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/adc.c.obj
-                              0x754b3 (size before relaxing)
- .debug_str     0x00079121      0x1c0 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/dma.c.obj
-                              0x751cf (size before relaxing)
- .debug_str     0x000792e1       0x7f CMakeFiles/STM32F071CBT7TR.dir/Core/Src/i2c.c.obj
-                              0x7558b (size before relaxing)
- .debug_str     0x00079360      0x175 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/tim.c.obj
-                              0x7581a (size before relaxing)
- .debug_str     0x000794d5       0xc3 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/usart.c.obj
-                              0x757c9 (size before relaxing)
- .debug_str     0x00079598      0x124 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_it.c.obj
-                              0x757fc (size before relaxing)
- .debug_str     0x000796bc       0x60 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_hal_msp.c.obj
-                              0x74fc3 (size before relaxing)
- .debug_str     0x0007971c      0x3c9 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                              0x75750 (size before relaxing)
- .debug_str     0x00079ae5       0xc0 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
-                              0x753ca (size before relaxing)
- .debug_str     0x00079ba5      0x29d CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                              0x75478 (size before relaxing)
- .debug_str     0x00079e42      0x2f5 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
-                              0x753ff (size before relaxing)
- .debug_str     0x0007a137      0x36a CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                              0x75630 (size before relaxing)
- .debug_str     0x0007a4a1      0xe59 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                              0x7638f (size before relaxing)
- .debug_str     0x0007b2fa      0x102 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
-                              0x7558f (size before relaxing)
- .debug_str     0x0007b3fc      0x167 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                              0x751e4 (size before relaxing)
- .debug_str     0x0007b563      0x20c CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
-                              0x753e9 (size before relaxing)
- .debug_str     0x0007b76f      0x1ad CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                              0x75421 (size before relaxing)
- .debug_str     0x0007b91c      0xdd2 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
-                              0x76459 (size before relaxing)
- .debug_str     0x0007c6ee      0x4c7 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
-                              0x75c65 (size before relaxing)
- .debug_str     0x0007cbb5      0x824 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                              0x75d95 (size before relaxing)
- .debug_str     0x0007d3d9      0x1db CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
-                              0x756c6 (size before relaxing)
- .debug_str     0x0007d5b4       0x93 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/system_stm32f0xx.c.obj
-                              0x75023 (size before relaxing)
- .debug_str     0x0007d647      0x510 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/sysmem.c.obj
-                               0x59fb (size before relaxing)
- .debug_str     0x0007db57     0x1b89 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/syscalls.c.obj
-                               0x9288 (size before relaxing)
- .debug_str     0x0007f6e0       0x69 CMakeFiles/STM32F071CBT7TR.dir/startup_stm32f071xb.s.obj
+.debug_str      0x00000000    0x80602
+ .debug_str     0x00000000    0x78f15 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/main.c.obj
+                              0x79344 (size before relaxing)
+ .debug_str     0x00078f15       0x9b CMakeFiles/STM32F071CBT7TR.dir/Core/Src/gpio.c.obj
+                              0x74fbb (size before relaxing)
+ .debug_str     0x00078fb0      0x169 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/adc.c.obj
+                              0x754ab (size before relaxing)
+ .debug_str     0x00079119      0x1c0 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/dma.c.obj
+                              0x751c7 (size before relaxing)
+ .debug_str     0x000792d9       0x7f CMakeFiles/STM32F071CBT7TR.dir/Core/Src/i2c.c.obj
+                              0x75583 (size before relaxing)
+ .debug_str     0x00079358      0x175 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/tim.c.obj
+                              0x75812 (size before relaxing)
+ .debug_str     0x000794cd       0xc3 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/usart.c.obj
+                              0x757c1 (size before relaxing)
+ .debug_str     0x00079590      0x124 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_it.c.obj
+                              0x757f4 (size before relaxing)
+ .debug_str     0x000796b4       0x60 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+                              0x74fbb (size before relaxing)
+ .debug_str     0x00079714      0x3c9 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                              0x75748 (size before relaxing)
+ .debug_str     0x00079add       0xc0 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
+                              0x753c2 (size before relaxing)
+ .debug_str     0x00079b9d      0x29d CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                              0x75470 (size before relaxing)
+ .debug_str     0x00079e3a      0x2f5 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                              0x753f7 (size before relaxing)
+ .debug_str     0x0007a12f      0x36a CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                              0x75628 (size before relaxing)
+ .debug_str     0x0007a499      0xe59 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                              0x76387 (size before relaxing)
+ .debug_str     0x0007b2f2      0x102 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                              0x75587 (size before relaxing)
+ .debug_str     0x0007b3f4      0x167 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                              0x751dc (size before relaxing)
+ .debug_str     0x0007b55b      0x20c CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+                              0x753e1 (size before relaxing)
+ .debug_str     0x0007b767      0x1ad CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                              0x75419 (size before relaxing)
+ .debug_str     0x0007b914      0xdd2 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
+                              0x76451 (size before relaxing)
+ .debug_str     0x0007c6e6      0x4c7 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj
+                              0x75c5d (size before relaxing)
+ .debug_str     0x0007cbad      0x824 CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                              0x75d8d (size before relaxing)
+ .debug_str     0x0007d3d1      0x1db CMakeFiles/STM32F071CBT7TR.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+                              0x756be (size before relaxing)
+ .debug_str     0x0007d5ac       0x93 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/system_stm32f0xx.c.obj
+                              0x7501b (size before relaxing)
+ .debug_str     0x0007d63f      0x510 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/sysmem.c.obj
+                               0x59f3 (size before relaxing)
+ .debug_str     0x0007db4f     0x1b89 CMakeFiles/STM32F071CBT7TR.dir/Core/Src/syscalls.c.obj
+                               0x9280 (size before relaxing)
+ .debug_str     0x0007f6d8       0x69 CMakeFiles/STM32F071CBT7TR.dir/startup_stm32f071xb.s.obj
                                  0xac (size before relaxing)
- .debug_str     0x0007f749      0x42a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-printf.o)
+ .debug_str     0x0007f741      0x42a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-printf.o)
                                 0x565 (size before relaxing)
- .debug_str     0x0007fb73       0x74 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .debug_str     0x0007fb6b       0x74 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-snprintf.o)
                                 0x578 (size before relaxing)
- .debug_str     0x0007fbe7       0x5a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strcat.o)
+ .debug_str     0x0007fbdf       0x5a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strcat.o)
                                 0x203 (size before relaxing)
- .debug_str     0x0007fc41       0x58 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-errno.o)
+ .debug_str     0x0007fc39       0x58 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-errno.o)
                                 0x524 (size before relaxing)
- .debug_str     0x0007fc99       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_str     0x0007fc91       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-strlen.o)
                                  0xef (size before relaxing)
- .debug_str     0x0007fd02      0x2b4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_str     0x0007fcfa      0x2b4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
                                 0x873 (size before relaxing)
- .debug_str     0x0007ffb6      0x109 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_str     0x0007ffae      0x109 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
                                 0x8db (size before relaxing)
- .debug_str     0x000800bf       0xcb C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_str     0x000800b7       0xcb C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
                                 0x81a (size before relaxing)
- .debug_str     0x0008018a       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wbuf.o)
+ .debug_str     0x00080182       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wbuf.o)
                                 0x560 (size before relaxing)
- .debug_str     0x000801f3       0x66 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wsetup.o)
+ .debug_str     0x000801eb       0x66 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-wsetup.o)
                                 0x55b (size before relaxing)
- .debug_str     0x00080259       0x74 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .debug_str     0x00080251       0x74 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memmove.o)
                                 0x225 (size before relaxing)
- .debug_str     0x000802cd       0x64 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+ .debug_str     0x000802c5       0x64 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
                                 0x224 (size before relaxing)
- .debug_str     0x00080331       0x78 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_str     0x00080329       0x78 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
                                 0x228 (size before relaxing)
- .debug_str     0x000803a9       0xad C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .debug_str     0x000803a1       0xad C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-reallocr.o)
                                 0x5a0 (size before relaxing)
- .debug_str     0x00080456       0x92 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-makebuf.o)
+ .debug_str     0x0008044e       0x92 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-makebuf.o)
                                 0x6bd (size before relaxing)
- .debug_str     0x000804e8       0x5f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-fstatr.o)
+ .debug_str     0x000804e0       0x5f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-fstatr.o)
                                 0x672 (size before relaxing)
- .debug_str     0x00080547       0x5a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-isattyr.o)
+ .debug_str     0x0008053f       0x5a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-isattyr.o)
                                 0x52a (size before relaxing)
- .debug_str     0x000805a1       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .debug_str     0x00080599       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a(libc_a-msizer.o)
                                 0x573 (size before relaxing)
 
 .debug_line_str

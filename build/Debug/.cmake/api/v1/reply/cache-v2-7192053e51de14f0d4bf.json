@@ -1171,10 +1171,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/Users/GEKWORk/Documents/Stm32CubeMX/STM32F071CBT7TR/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
