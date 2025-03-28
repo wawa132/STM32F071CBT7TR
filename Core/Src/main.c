@@ -74,6 +74,8 @@ int32_t senValue[100], adcValue[4];
 int16_t reqCnt = 20, txCnt = 1000, adcCnt = 300;
 uint8_t test;
 int16_t Evalue, Fvalue;
+uint8_t test_scenario;
+uint32_t test_time;
 /* USER CODE END 0 */
 
 /**
@@ -187,6 +189,63 @@ int main(void)
                 // ADC3, ADC4 0으로 설정
                 senValue[senID[2] - 1] = 0;
                 senValue[senID[3] - 1] = 0;
+
+                if (test_time > 0)
+                {
+                    if (test_scenario == 1)
+                    {
+                        // 1시간(3,600,000msec)테스트 진행
+
+                        if (test_time <= 3300000) // 5분 지난 후(3,600,000 - 300,000)
+                        {
+                            senValue[senID[0] - 1] = 5; // 배출시설 5A 가동 설정
+
+                            if (test_time <= 2400000) // 방지시설 설정 20분 지난 후(3,600,000 - 1,200,000)
+                            {
+                                if (test_time <= 1800000)
+                                    senValue[senID[1] - 1] = 0; // 방지시설 0A 미가동 설정
+                                else
+                                    senValue[senID[1] - 1] = 5; // 방지시설 5A 가동 설정
+                            }
+                        }
+                        else
+                        {
+                            senValue[senID[0] - 1] = 0; // 테스트 초기 0A
+                            senValue[senID[1] - 1] = 0;
+                        }
+                    }
+                    else if (test_scenario == 2)
+                    {
+                        // 2시간 반(9,000,000msec)테스트 진행
+
+                        if (test_time <= 6600000) // 40분 지난 후 (9,000,000 - 2,400,000)
+                        {
+                            if (test_time <= 300000)        // 2시간 25분 후(9,000,000 - 8,700,000)
+                                senValue[senID[0] - 1] = 5; // 배출시설 시나리오 종료 5분 남은 시점에 5A 미가동
+                            else
+                                senValue[senID[0] - 1] = 15; // 배출시설 15A 가동 설정
+
+                            if (test_time <= 5400000) // 방지시설 설정
+                            {
+                                if (test_time <= 3600000)
+                                    senValue[senID[1] - 1] = 0; // 시나리오 종료 1시간 전 방지시설 0A 미가동 설정
+                                else
+                                    senValue[senID[1] - 1] = 5; // 방지시설 5A 가동 설정
+                            }
+                        }
+                        else
+                        {
+                            // 테스트 초기 배출 5A, 방지 0A
+                            senValue[senID[0] - 1] = 5;
+                            senValue[senID[1] - 1] = 0;
+                        }
+                    }
+                }
+                else
+                {
+                    if (test_scenario == 1 || test_scenario == 2)
+                        test_scenario = 0; // 테스트 종료
+                }
 
                 adcCnt = 300;
             }
@@ -329,6 +388,10 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
             txCnt--;
         if (reqCnt)
             reqCnt--;
+
+        // 테스트 시나리오 시작시
+        if (test_scenario > 0)
+            test_time--;
 
         // 1msec 간격 ADC
         adcFlag = 1;
@@ -526,6 +589,31 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
             HAL_UART_Transmit_DMA(&huart1, (uint8_t *)tmpBuff, strlen(tmpBuff));
         }
+
+        else if (usrBuff[0] == 'S' && usrBuff[1] == 'C' && usrBuff[2] == 'N' && usrBuff[4] == 0x0D && usrBuff[5] == 0x0A)
+        { // 테스트 시나리오
+
+            if (usrBuff[3] == '1') // 테스트 시나리오 - 1
+            {
+                test_scenario = 1;
+                test_time = 2 * 30 * 60 * 1000; // 1시간
+                snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO - 1\r\n");
+            }
+            else if (usrBuff[3] == '2') // 테스트 시나리오 - 2
+            {
+                test_scenario = 2;
+                test_time = 5 * 60 * 60 * 1000; // 2시간반
+                snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO - 2\r\n");
+            }
+            else if (usrBuff[1] == '0') // 테스트 종료
+            {
+                test_scenario = 0;
+                snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO STOP\r\n");
+            }
+
+            HAL_UART_Transmit_DMA(&huart1, (uint8_t *)tmpBuff, strlen(tmpBuff));
+        }
+
         HAL_UART_Receive_IT(&huart1, (uint8_t *)&usrData, 1);
     }
 }
