@@ -75,7 +75,7 @@ int16_t reqCnt = 20, txCnt = 1000, adcCnt = 300;
 uint8_t test;
 int16_t Evalue, Fvalue;
 uint8_t test_scenario;
-uint32_t test_time;
+uint32_t test_time = 0;
 /* USER CODE END 0 */
 
 /**
@@ -389,8 +389,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         if (reqCnt)
             reqCnt--;
 
-        // 테스트 시나리오 시작시
-        if (test_scenario > 0)
+        // 테스트
+        if (test_time > 0)
             test_time--;
 
         // 1msec 간격 ADC
