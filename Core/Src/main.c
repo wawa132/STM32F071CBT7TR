@@ -65,12 +65,15 @@ void Read_Sensor_ID(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 char txBuff[350], txNewBuff[100], rxBuff[30], reqBuff[30], rxData, usrBuff[30],
-    dataBuff[30], usrData, gwData, gwBuff[30];
+    dataBuff[255], usrData, gwData, gwBuff[30];
 uint8_t senID[4], adcFlag, sendFlag, reqFlag, usrFlag,
-    reqCnt = 20, reqNum, com_err, sensorNum, I2CBuff[16], ReadI2C[16];
-uint16_t adcRaw[40], adcData[4], adcAvg[4], txCnt = 1000, adcCnt = 300;
+    reqNum, com_err, sensorNum, I2CBuff[16], ReadI2C[16];
+uint16_t adcRaw[40], adcData[4], adcAvg[4];
 uint32_t adcSum[4], adcRawSum[4];
 int32_t senValue[100], adcValue[4];
+int16_t reqCnt = 20, txCnt = 1000, adcCnt = 300;
+uint8_t test;
+int16_t Evalue, Fvalue;
 /* USER CODE END 0 */
 
 /**
@@ -174,7 +177,13 @@ int main(void)
                 senValue[senID[2] - 1] = adcValue[2];
                 senValue[senID[3] - 1] = adcValue[3];
 
-                // 환경공단 테스트 설정 ADC1: 배출시설(E0101), ADC2: 송풍시설(F0001), ADC3: 배출시설(E8001), ADC4: 송풍시설(F8001)
+                if (test)
+                {
+                    senValue[senID[0] - 1] = Evalue;
+                    senValue[senID[1] - 1] = Fvalue;
+                }
+
+                // 환경공단 테스트 설정 ADC1: 배출시설(E0101A), ADC2: 송풍시설(F0001A), ADC3: 배출시설(E8001), ADC4: 송풍시설(F8001)
                 // ADC3, ADC4 0으로 설정
                 senValue[senID[2] - 1] = 0;
                 senValue[senID[3] - 1] = 0;
@@ -210,13 +219,13 @@ int main(void)
 
         if (sendFlag) // 게이트웨이로 센서 데이터 전송
         {
-            snprintf(txBuff, sizeof(txBuff), "%c", 0x02);
+            sprintf(txBuff, "%c", 0x02);
 
             for (int i = 0; i < 100; i++)
             {
                 if (i >= sensorNum)
                 {
-                    snprintf(txNewBuff, sizeof(txNewBuff), "000");
+                    sprintf(txNewBuff, "000");
                 }
                 else
                 {
@@ -227,20 +236,20 @@ int main(void)
                         if (minus_data > 100)
                             minus_data = 99;
 
-                        snprintf(txNewBuff, sizeof(txNewBuff), "-%02ld", minus_data);
+                        sprintf(txNewBuff, "-%02ld", minus_data);
                     }
                     else
                     {
                         if (senValue[i] > 999)
                             senValue[i] = 999;
 
-                        snprintf(txNewBuff, sizeof(txNewBuff), "%03ld", senValue[i]);
+                        sprintf(txNewBuff, "%03ld", senValue[i]);
                     }
                 }
                 strcat(txBuff, txNewBuff);
             }
 
-            snprintf(txNewBuff, sizeof(txNewBuff), "%c%c%c%c", 0x03, 0x0D, 0x0A, 0x00);
+            sprintf(txNewBuff, "%c\r", 0x03);
             strcat(txBuff, txNewBuff);
 
             HAL_UART_Transmit_DMA(&huart2, (uint8_t *)&txBuff, strlen(txBuff));
@@ -251,8 +260,9 @@ int main(void)
         if (usrFlag) // 전체 센서 갯수, 계측 센서 ID
         {
             // ex.Total num and PortA ID: 01, PortB ID: 02... T07PA01PB06PC03PD07\r\n
-            snprintf(dataBuff, sizeof(dataBuff), "T%02dA1%02dA2%02dA3%02dA4%02d%c%c%c",
-                     sensorNum, senID[0], senID[1], senID[2], senID[3], 0x0D, 0x0A, 0x00);
+            snprintf(dataBuff, sizeof(dataBuff), "Total(%02d) A1(%02d): %ld, A2(%02d): %ld, A3(%02d): %ld, A4(%02d): %ld%c%c%c",
+                     sensorNum, senID[0], senValue[senID[0] - 1], senID[1], senValue[senID[1] - 1], senID[2],
+                     senValue[senID[2] - 1], senID[3], senValue[senID[3] - 1], 0x0D, 0x0A, 0x00);
             HAL_UART_Transmit_DMA(&huart1, (uint8_t *)&dataBuff, strlen(dataBuff));
 
             usrFlag = 0;
@@ -424,7 +434,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
             if (gwBuff[gwNum - 5] == 'S')
             {
                 sensorNum = I2CBuff[0];
-                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x48, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
+                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x58, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
 
                 gwNum = 0;
             }
@@ -451,36 +461,67 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
             if (usrBuff[1] == 'S') // 총 센서 갯수
             {
                 sensorNum = I2CBuff[0];
-                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x48, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
+                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x58, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
                 snprintf(tmpBuff, sizeof(tmpBuff), "Total Sensor Num: %2d\r\n", I2CBuff[0]);
             }
             else if (usrBuff[1] == '1') // 1번 ADC ID
             {
                 senID[0] = I2CBuff[0];
-                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x40, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
+                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x50, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
                 snprintf(tmpBuff, sizeof(tmpBuff), "ADC1 ID: %2d\r\n", I2CBuff[0]);
             }
             else if (usrBuff[1] == '2')
             {
                 senID[1] = I2CBuff[0];
-                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x42, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
+                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x52, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
                 snprintf(tmpBuff, sizeof(tmpBuff), "ADC2 ID: %2d\r\n", I2CBuff[0]);
             }
             else if (usrBuff[1] == '3')
             {
                 senID[2] = I2CBuff[0];
-                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x44, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
+                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x54, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
                 snprintf(tmpBuff, sizeof(tmpBuff), "ADC3 ID: %2d\r\n", I2CBuff[0]);
             }
             else if (usrBuff[1] == '4')
             {
                 senID[3] = I2CBuff[0];
-                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x46, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
+                HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x56, I2C_MEMADD_SIZE_8BIT, &I2CBuff[0], 1, 1);
                 snprintf(tmpBuff, sizeof(tmpBuff), "ADC4 ID: %2d\r\n", I2CBuff[0]);
             }
             else
             {
                 snprintf(tmpBuff, sizeof(tmpBuff), "Wrong Protocol: %s", usrBuff);
+            }
+
+            HAL_UART_Transmit_DMA(&huart1, (uint8_t *)tmpBuff, strlen(tmpBuff));
+        }
+        else if (usrBuff[0] == 'T' && usrBuff[4] == 0x0D && usrBuff[5] == 0x0A)
+        {
+            int16_t data;
+
+            data = (usrBuff[2] - '0') * 10;
+            data += (usrBuff[3] - '0');
+
+            // 50을 기준으로 위로는 + 데이터, 밑으로는 - 데이터
+            data -= 50;
+
+            // 테스트 모드
+            if (usrBuff[1] == '1') // E0101 값
+            {
+                test = 1;
+                Evalue = data;
+                snprintf(tmpBuff, sizeof(tmpBuff), "E0101A: %d\r\n", data);
+            }
+            else if (usrBuff[1] == '2') // F0001 값
+            {
+                test = 1;
+                Fvalue = data;
+                snprintf(tmpBuff, sizeof(tmpBuff), "F0001A: %d\r\n", data);
+            }
+            else if (usrBuff[1] == 'S')
+            {
+                test = 0;
+                snprintf(tmpBuff, sizeof(tmpBuff), "TEST STOP\r\n");
             }
 
             HAL_UART_Transmit_DMA(&huart1, (uint8_t *)tmpBuff, strlen(tmpBuff));
@@ -500,14 +541,21 @@ void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
 
 void Read_Sensor_ID(void)
 {
-    HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0x40, I2C_MEMADD_SIZE_8BIT, &ReadI2C[0], 16, 1);
+    HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0x50, I2C_MEMADD_SIZE_8BIT, &ReadI2C[0], 16, 1);
 
     for (uint8_t i = 0; i < ADC_NUM; i++)
     {
         senID[i] = ReadI2C[i * 2];
     }
 
-    sensorNum = ReadI2C[8]; // Main 보드에만 해당
+    sensorNum = ReadI2C[8]; // Main 보드에만 해당 -> 디버깅 필요.
+
+    /*수정 필요*/ // 0x40 메모리 깨짐
+    senID[0] = 1;
+    senID[1] = 6;
+    senID[2] = 3;
+    senID[3] = 7;
+    sensorNum = 7;
 }
 /* USER CODE END 4 */
 
