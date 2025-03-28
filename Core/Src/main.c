@@ -195,7 +195,6 @@ int main(void)
                     if (test_scenario == 1)
                     {
                         // 1시간(3,600,000msec)테스트 진행
-
                         if (test_time <= 3300000) // 5분 지난 후(3,600,000 - 300,000)
                         {
                             senValue[senID[0] - 1] = 5; // 배출시설 5A 가동 설정
@@ -217,7 +216,6 @@ int main(void)
                     else if (test_scenario == 2)
                     {
                         // 2시간 반(9,000,000msec)테스트 진행
-
                         if (test_time <= 6600000) // 40분 지난 후 (9,000,000 - 2,400,000)
                         {
                             if (test_time <= 300000)        // 2시간 25분 후(9,000,000 - 8,700,000)
@@ -574,17 +572,26 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
                 test = 1;
                 Evalue = data;
                 snprintf(tmpBuff, sizeof(tmpBuff), "E0101A: %d\r\n", data);
+
+                if (test_time)
+                    test_time = 0;
             }
             else if (usrBuff[1] == '2') // F0001 값
             {
                 test = 1;
                 Fvalue = data;
                 snprintf(tmpBuff, sizeof(tmpBuff), "F0001A: %d\r\n", data);
+
+                if (test_time)
+                    test_time = 0;
             }
             else if (usrBuff[1] == 'S')
             {
                 test = 0;
                 snprintf(tmpBuff, sizeof(tmpBuff), "TEST STOP\r\n");
+
+                if (test_time)
+                    test_time = 0;
             }
 
             HAL_UART_Transmit_DMA(&huart1, (uint8_t *)tmpBuff, strlen(tmpBuff));
@@ -597,17 +604,24 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
             {
                 test_scenario = 1;
                 test_time = 2 * 30 * 60 * 1000; // 1시간
+
+                if (test)
+                    test = 0;
                 snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO - 1\r\n");
             }
             else if (usrBuff[3] == '2') // 테스트 시나리오 - 2
             {
                 test_scenario = 2;
                 test_time = 5 * 60 * 60 * 1000; // 2시간반
+
+                if (test)
+                    test = 0;
                 snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO - 2\r\n");
             }
-            else if (usrBuff[1] == '0') // 테스트 종료
+            else if (usrBuff[3] == '0') // 테스트 종료
             {
                 test_scenario = 0;
+                test_time = 0;
                 snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO STOP\r\n");
             }
 
