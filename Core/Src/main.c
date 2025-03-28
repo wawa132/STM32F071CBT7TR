@@ -198,6 +198,7 @@ int main(void)
                         if (test_time <= 3300000) // 5분 지난 후(3,600,000 - 300,000)
                         {
                             senValue[senID[0] - 1] = 5; // 배출시설 5A 가동 설정
+                            senValue[senID[1] - 1] = 0; // 방지시설 0A 미가동 설정
 
                             if (test_time <= 2400000) // 방지시설 설정 20분 지난 후(3,600,000 - 1,200,000)
                             {
@@ -222,6 +223,8 @@ int main(void)
                                 senValue[senID[0] - 1] = 5; // 배출시설 시나리오 종료 5분 남은 시점에 5A 미가동
                             else
                                 senValue[senID[0] - 1] = 15; // 배출시설 15A 가동 설정
+
+                            senValue[senID[1] - 1] = 0; // 방지시설 미가동
 
                             if (test_time <= 5400000) // 방지시설 설정
                             {
@@ -604,18 +607,12 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
             {
                 test_scenario = 1;
                 test_time = 2 * 30 * 60 * 1000; // 1시간
-
-                if (test)
-                    test = 0;
                 snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO - 1\r\n");
             }
             else if (usrBuff[3] == '2') // 테스트 시나리오 - 2
             {
                 test_scenario = 2;
-                test_time = 5 * 60 * 60 * 1000; // 2시간반
-
-                if (test)
-                    test = 0;
+                test_time = ((2 * 60 * 60) + (30 * 60)) * 1000; // 2시간반
                 snprintf(tmpBuff, sizeof(tmpBuff), "TEST SCENARIO - 2\r\n");
             }
             else if (usrBuff[3] == '0') // 테스트 종료
